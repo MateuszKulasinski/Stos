@@ -94,3 +94,4 @@ public class StackTest {
         assertEquals("Stos jest pusty!", exception.getMessage());
     }
 }
+
