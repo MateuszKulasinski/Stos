@@ -93,6 +93,5 @@ public class StackTest {
         Exception exception = assertThrows(RuntimeException.class, () -> stack.peek());
         assertEquals("Stos jest pusty!", exception.getMessage());
     }
-
-
+    
 }

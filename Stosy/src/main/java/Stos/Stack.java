@@ -32,6 +32,9 @@ public class Stack {
         if (wloz==null){
             throw new RuntimeException("Element nie moze byc pusty");
         }
+        if (wielkosc==Integer.MAX_VALUE){
+            throw new RuntimeException("Stos jest za duży");
+        }
         wielkosc += 1;
         nowyStos();
         stos[wielkosc - 1] = wloz;
